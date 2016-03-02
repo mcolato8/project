@@ -1,0 +1,22 @@
+
+a:link {
+font-family: 'Josefin Sans', sans-serif;
+    font-size:150px;
+    display:block;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:5%;
+    text-decoration: none;
+    border-style: dashed;
+ 
+
+}
+
+a:visited{
+    color:aquamarine;
+}
+
+a:hover{
+    text-decoration: underline;
+}
