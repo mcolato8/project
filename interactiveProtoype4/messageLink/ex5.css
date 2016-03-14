@@ -1,0 +1,102 @@
+*{
+     max-height: 500px;
+    max-width: 340px;
+}
+
+
+html, body {
+      font-family: 'Josefin Sans', sans-serif;
+      height: 100%;
+      margin-left:auto;
+      margin-right:auto;
+      width:400px;
+      padding: 0;
+      text-align:center;
+     
+      
+      }
+
+header {
+    font-size: 40px;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+#map {
+        height: 50%;
+        width: 100%;
+      }
+
+tr {
+    border-style: solid;
+    
+}
+
+td {
+    padding: 30px 30px 15px 30px;
+   
+}
+
+td.left {
+
+    vertical-align: baseline;
+    text-align: center;
+    max-width:inherit;
+}
+
+form input {
+
+ padding:15px;
+ height: 10px;
+ color:blue;
+font-size:14px;
+}
+
+form input[type="submit"] {
+  color:blue;
+  text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+form input[type="reset"]{
+    color:black;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#myMsg{
+    
+    color:whitesmoke;
+    font-size:150px;
+    max-width: 300px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hide{
+  visibility:hidden;
+}
+
+.show{
+    visibility: show;
+    font-size: 130px;
+    text-align: left;
+    padding: 40px;
+    width: 300px;
+    height:300px;
+}
+
+
+
+
+#table {
+    width: 300px;
+    border-style: dashed;
+    background-color:lightgrey;
+	font-size:24px;
+	margin-left:auto;
+    margin-right: auto;
+    margin-top:  2%;
+   margin-bottom: 2%;
+}
+

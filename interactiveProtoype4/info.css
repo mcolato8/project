@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px
+   
+    
+}
+
+@font-face {
+    font-family: 'kg_why_you_gotta_be_so_meanRg';
+    src: url('font/kgwhyyougottabesomean-webfont.eot');
+    src: url('font/kgwhyyougottabesomean-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/kgwhyyougottabesomean-webfont.woff2') format('woff2'),
+         url('font/kgwhyyougottabesomean-webfont.woff') format('woff'),
+         url('font/kgwhyyougottabesomean-webfont.ttf') format('truetype'),
+         url('font/kgwhyyougottabesomean-webfont.svg#kg_why_you_gotta_be_so_meanRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+    font-family: kgwhyyougottabesomean;
+   
+    max-width: 480px;
+    background-color: #fcf4d0; 
+}
+
+header{ 
+background-image: url(images/headerAuxilium_small.png);
+    width: 479px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+#info{
+  
+    margin-top: 3%;
+   text-align: center;
+   
+
+}
+
+#description{
+   
+    font-size: 25px;
+   text-align:center;
+}
+
+#bottom{
+    display:block;
+}
+
+ul{
+       list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 480px;
+     background-color: #acd0c8;
+}
+
+li{
+ float:left;
+    margin-left: 4%;
+    
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#imgdescription{
+    
+        font-size:14px;
+    text-align: center;
+}
+
